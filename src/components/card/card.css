@@ -1,0 +1,19 @@
+.Card {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: 700px;
+  margin: 40px;
+  box-shadow: 13px 17px 31px -10px rgba(0, 0, 0, 0.75);
+}
+
+.Card-Bottom {
+  flex: 2;
+  background-color: rgb(255, 255, 255);
+}
+
+.Card-Top {
+  text-align: center;
+  flex: 1;
+  background-color: rgb(183, 194, 203);
+}
